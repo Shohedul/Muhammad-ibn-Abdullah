@@ -1,4 +1,73 @@
+/* Styling the body element
+like body color and margin */
+
 body {
-    background-color: #00FA9A;
-    margin: 20%;
+	background-color: #000;
+	margin: 15%;
+	margin-top: 0;
+	text-align: center;
+}
+
+/* Styling navber and item */
+
+.navbar-dark .navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	color: #C0C0C0;
+}
+
+.nav-item{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* Styling the Title and giving
+shadow to the title */
+#title {
+	color:#D4AF37;
+	text-shadow: 2.5px 2.5px 5px #000;
+	font-size: 7vh;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* Setting width and display
+type of image */
+img {
+	display: inline-block;
+	width: 100%;
+	height: 75%;
+}
+
+/* Setting font color and font
+size of the image-caption */
+#caption {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: #C0C0C0;
+}
+
+/* Styling the content of the page like-
+padding, font-size, font color etc.*/
+div#tribute-data {
+	background-color: rgb(40, 40, 43, 0.25);
+	box-shadow: 15px 15px 20px #D4AF37;
+	font-family: 'Montserrat', sans-serif;
+	padding: 25px 25px;
+	margin: 11px;
+	margin-top: 50px;
+}
+
+/* Styling the title of the content */
+h1.title-MD {
+	font-size: 35px;
+	color: #FFD700;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-shadow: 5px 5px 10px black;
+}
+.para{
+	text-align: left;
+	color: #C0C0C0;
+}
+/* Styling the link provided at the end */
+#tribute-link {
+	text-decoration: none;
+	color: #C0C0C0;
 }
